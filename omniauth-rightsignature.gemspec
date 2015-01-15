@@ -5,7 +5,7 @@ require File.expand_path('../lib/omniauth/rightsignature/version', __FILE__)
 Gem::Specification.new do |gem|
 gem.name = 'omniauth-rightsignature'
 gem.version = OmniAuth::Rightsignature::VERSION
-#gem.homepage = 'https://github.com/spagalloco/omniauth-rightsignature'
+gem.homepage = 'https://github.com/DeepikaaSubramaniam21/omniauth-rightsignature/'
 gem.author = "Deepikaa Subramaniam"
 gem.email = 'deepikaa.subramaniam@citrix.com'
 gem.description = 'RightSignature strategy for OmniAuth 1.0'
