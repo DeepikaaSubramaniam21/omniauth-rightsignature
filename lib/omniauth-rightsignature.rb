@@ -1,1 +1,1 @@
-require 'omniauth/rightsignature'
+require 'omniauth/strategies/rightsignature'
