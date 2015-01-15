@@ -19,7 +19,6 @@ module OmniAuth
       }
       option :name, 'rightsignature'
       
-      #raise 'Error'
       uid {access_token.params['user_id']}
       
       info do
