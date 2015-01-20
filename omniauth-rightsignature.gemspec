@@ -20,6 +20,6 @@ gem.add_development_dependency 'yard', '~> 0.7'
 gem.add_development_dependency 'webmock', '~> 1.7'
 gem.executables = `git ls-files -- bin/*`.split("\n").map{|f| File.basename(f)}
 gem.files = `git ls-files`.split("\n")
-#gem.test_files = `git ls-files -- {test,spec,features}/*`.split("\n")
+gem.test_files = `git ls-files -- {test,spec,features}/*`.split("\n")
 gem.require_paths = ['lib']
 end
